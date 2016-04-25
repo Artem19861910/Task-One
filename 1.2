@@ -1,0 +1,14 @@
+def is_palindrome(line=None):
+    enil = ''
+    line=line.lower()
+    for i in range(len(line)):
+        enil = enil+line[-(i+1)]
+    if enil == line: return True
+    else: return False
+    
+                   
+if __name__ == '__main__':
+    npal='Depeche_Mode'
+    print(is_palindrome(npal))
+    pal='Tenet'
+    print(is_palindrome(pal))
