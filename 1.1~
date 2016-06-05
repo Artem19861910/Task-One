@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def swap(line=None):
     enil = ''
     for i in range(len(line)):
